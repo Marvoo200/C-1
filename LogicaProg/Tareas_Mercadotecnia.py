@@ -70,13 +70,13 @@ while(op != 6):
     if(op == 1):
         Publicidad(cantidad_banner, costos_banner)
     elif(op == 2): 
-        Ventas(cantidad_productos, costo_producto)
-    elif(op == 3): 
-        Logistica(transporteA, transporteB)
-    elif(op == 4): 
-        Precios(costos, porcentaje)
-    elif(op == 5): 
         Estudio_Mercado(personas_gusto, personas_no_gusto)
+    elif(op == 3): 
+        Precios(costos, porcentaje)
+    elif(op == 4): 
+        Logistica(transporteA, transporteB)
+    elif(op == 5): 
+        Ventas(cantidad_productos, costo_producto)
     elif(op == 6): 
         print("De acuerdo, hasta luego ^_^")
     else:
