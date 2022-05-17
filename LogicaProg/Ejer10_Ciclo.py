@@ -1,4 +1,4 @@
-
+acumulador = 0
 a = 0
 numero = 0
 promedio = 0
@@ -11,14 +11,15 @@ promedio = 0
     else:
         print("Numero negativo invalido, obteniendo promedio")
 '''
+numero = float(input("Ingresa un numero: "))
 while(numero >=0):
-    promedio += numero
+    acumulador += numero
     a+=1
     numero = float(input("Ingresa un numero: "))
 
     
-promedio = promedio/a
-print("El promedio es: ", promedio)
+promedio = acumulador/a
+print("El promedio es: ", round(promedio, 2))
 
 
 

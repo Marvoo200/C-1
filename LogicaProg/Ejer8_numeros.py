@@ -12,12 +12,12 @@ num = int(input("Ingresa el numero: "))
 
 #Proceso
 
-if(num <= 100 and num > 0):
-    for i in range(1, num):
+if(num < 100 and num > 0):
+    for i in range(1, num+1):
         if(i %2 == 0):
             print(i)
-elif(num<0 and num >=-100):
-    for i in range (0, num, -1):
+elif(num<0 and num >-100):
+    for i in range (0, num-1, -1):
         if (i %2 !=0 and num < 0):
             print(i)
 else:

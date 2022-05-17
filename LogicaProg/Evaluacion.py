@@ -26,7 +26,7 @@ respuestas =["     a) IDE     b) Pseudocódigo     c) Compilador     d) ANSI / I
              "     a) Estructura     b) Sistema     c) Objeto     d) Virtual",
              "     a) Operaciones/Cálculos     b) Sintaxis     c) Programa de Computadora     d) Comando"
             ]
-correctas = ["B", "A", "C", "D", "D", "D", "B", "A", "A", "B", "A", "C"]
+correctas = ["B", "A", "C", "D", "D", "D", "B", "A", "C", "B", "A", "C"]
 score = 0
 print("\n\nLea las preguntas e ingrese la letra de la respuesta\n\n")
 
